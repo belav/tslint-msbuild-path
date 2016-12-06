@@ -1,8 +1,26 @@
 {
   "name": "tslint-msbuild-path",
   "version": "0.9.0",
-  "description": "TSLint formatter that formats output so it can show up as errors for msbuild",
+  "description": "TSLint formatter that formats output expected by msbuild so they are navigatable errors in visual studio",
   "main": "index.js",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/belav/tslint-msbuild-path"
+  },
+  "keywords": [
+    "tslint",
+    "typescript",
+    "formatter",
+	"msbuild",
+	"visualstudio"
+  ],
+  "author": {
+    "name": "Béla Vander Voort"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/belav/tslint-msbuild-path/issues"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt-cli": "0.1.9",
@@ -17,6 +35,17 @@
     "chai": "~1.8.1",
     "mocha-unfunk-reporter": "~0.4.0"
   },
+  "homepage": "https://github.com/belav/tslint-msbuild-path",
   "_id": "tslint-msbuild-path@0.9.0",
+    "_npmUser": {
+    "name": "belav",
+    "email": "belavandervoort@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "belav",
+      "email": "belavandervoort@gmail.com"
+    }
+  ],
   "directories": {}
 }
