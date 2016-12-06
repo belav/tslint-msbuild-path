@@ -1,7 +1,5 @@
 var path = require("path");
 
-var options = { style: "ansi" };
-
 var writeLine = function (line) {
     if (arguments.length === 0) {
         line = "";
@@ -119,9 +117,5 @@ PathFormatter.prototype = Object.create({
     }
 });
 module.exports = {
-    Formatter: PathFormatter,
-    options: options,
-    color: function (enable) {
-        options.style = enable ? "ansi" : false;
-    }
+    Formatter: PathFormatter
 };
